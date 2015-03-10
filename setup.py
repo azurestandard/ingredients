@@ -9,6 +9,6 @@ setup(
     license='BSD',
     url='https://github.com/azurestandard/ingredients',
     packages=['ingredients'],
-    long_description='Ingredient Parsing Library',
-    classifiers=['Topic :: Utilities']
+    package_data={'ingredients': ['ingredients-list']},
+    long_description='Ingredient Parsing Library'
 )
